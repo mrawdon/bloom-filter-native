@@ -3,3 +3,7 @@ declare class BloomFilterNative{
     add(data: string):void;
     lookup(data: string):boolean;
 }
+
+declare module "bloom-filter-native"{
+    export = BloomFilterNative
+}
