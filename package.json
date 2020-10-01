@@ -1,6 +1,6 @@
 {
   "name": "@mrawdon/bloom-filter-native",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A native implementation of a bloom filter",
   "main": "index.js",
   "directories": {
