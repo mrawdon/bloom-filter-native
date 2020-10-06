@@ -12,7 +12,6 @@
         "<!@(node -p \"require('node-addon-api').include\")"
         
       ],
-      "dependencies": ["<!(node -p \"require('node-addon-api').gyp\")"],
       'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
       "sources": [
         "<!@(node -p \"require('fs').readdirSync('./libraries/libbf/src').map(f=>'libraries/libbf/src/'+f).join(' ')\")",
